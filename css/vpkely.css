@@ -137,15 +137,32 @@ section aside:hover {
     background-size: cover;
     color: var(--color-text-forBG); /*#7b6659 #fff;*/
     width: 100%;
-    height: 390px;
+    height: 9rem;
     max-width: 100%;
+    padding: 16rem 0 16rem 0;
+}
+
+h1.title{
+ /*visibility: collapse;*/
+ margin-top:20rem;
+}
+
+ /* fix banner size on small screen */
+@media only screen and (max-width: 720px) {
+#title-block-header {
+
+    height: 1rem;
     padding: 9rem 0 9rem 0;
 }
 
 h1.title{
  /*visibility: collapse;*/
- margin-top:435px;
+ margin-top:7.5rem;
+ font-size:125%;
 }
+
+}
+
 /*--- direct use in html*/
 .author { display: none;}
 .subtitle { 
