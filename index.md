@@ -3,47 +3,77 @@ title: "Optimal: Rust notes"
 ---
 
 <header>
-<h1>Page Heading with <i>Italics</i> and <u>Underline</u></h1>
-<p>Page Subheading with <mark>highlighting</mark></p>
-
-<p><a href="#"><i>Italic Link Button</i></a><a href="#"><b>Bold Link Button &rarr;</b></a></p>
+<h1>Adopting <i>Rust</i></h1>
+<p>What to do after the official <em>Rust Programming Language Book</em></p>
 </header>
 
 <main>
----
 
 <section id="section-1">
 <header>
-## Section Heading
+## Developer's Notes
 
-Section Subheading
+Rust programming, Tech Tips & Tools
 </header>
 <aside>
-### Card heading
-Card content*
+### Rust Input / Output
+
+Rust [Input / Output](./dev_notes/input_output.html)
 
 <small>*with small content</small>
 </aside>
 <aside>
-### Card heading
+### Rust Iterators and Combinators
 
-Card content <sup>with notification</sup>
+Rust [Iterators and Combinators](./dev_notes/iterators_and_combinators.html)
+
+<sup>working with collections</sup>
 </aside>
 <aside>
-### Card heading
+### Serde & Reqwest
 
-Card content
+Rust [Serde / Reqwest](./)
 </aside>
 </section><!--^ section-1 -->
 
+---
 
+<section  id="section-2">
+<header>
+## Developer's Tools
+
+Git, hx (helix editor) & Docker
+</header>
+<aside>
+### Git
+
+Card content
+</aside>
+<aside>
+### hx
+
+Card content
+</aside>
+<aside>
+### Docker
+
+Card content
+</aside>
+
+</section><!--^ section-2 -->
+
+---
+
+<header>
+<p><a href="https://lerina.github.io"><i>&larr; OPTIMAL</i></a><a href="nobundle.github.io"><b>Webassembly &rarr;</b></a></p>
+</header>
 </main>
 <footer>
 
 ---
 
 <p>
-<small>Contact info</small>
+<small><a href="https://lerina.github.io">Contact info</a></small>
 </p>
 </footer>
 
